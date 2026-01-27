@@ -11,6 +11,14 @@
 *.sln.docstates
 *.env
 
+
+# Terraform variable files
+*.tfvars
+*.tfvars.json
+
+# Terraform state (extra safety)
+*.tfstate
+*.tfstate.*
 # User-specific files (MonoDevelop/Xamarin Studio)
 *.userprefs
 
